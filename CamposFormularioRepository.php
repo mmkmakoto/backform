@@ -1,5 +1,5 @@
 <?php
-namespace App\Repositories\CamposFormulario;
+namespace Backform;
 class CamposFormularioRepository
 {
 	public function tipo($nomeCampo)

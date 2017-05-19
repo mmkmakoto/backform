@@ -1,5 +1,5 @@
 <?php
-namespace App\Repositories\CamposFormulario\Selecoes;
+namespace Backform\Selecoes;
 
 use App\Repositories\CamposFormulario\CamposFormularioAbstract;
 use Carbon\Carbon;

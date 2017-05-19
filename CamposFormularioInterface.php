@@ -1,5 +1,5 @@
 <?php
-namespace App\Repositories\CamposFormulario;
+namespace Backform;
 interface CamposFormularioInterface
 {
 	public static function getTiposCampos();

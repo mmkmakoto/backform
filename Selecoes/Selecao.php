@@ -1,6 +1,6 @@
 <?php
-namespace App\Repositories\CamposFormulario\Selecoes;
-use App\Repositories\CamposFormulario\CamposFormularioAbstract;
+namespace Backform\Selecoes;
+use Backform\CamposFormularioAbstract;
 
 class Selecao extends CamposFormularioAbstract
 {

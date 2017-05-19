@@ -1,6 +1,6 @@
 <?php
-namespace App\Repositories\CamposFormulario;
-use App\Repositories\CamposFormulario\CamposFormularioInterface;
+namespace Backform;
+use Backform\CamposFormularioInterface;
 abstract class CamposFormularioAbstract implements CamposFormularioInterface
 {
 	protected $nullable = true;
