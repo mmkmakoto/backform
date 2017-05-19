@@ -8,5 +8,10 @@
             "email": "mmkmakoto@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
 }
