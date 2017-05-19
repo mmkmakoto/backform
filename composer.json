@@ -1,0 +1,13 @@
+{
+    "name": "mmkmakoto/backform",
+    "description": "forms gerados dinamicamente no backend",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Marcos Makoto Kato",
+            "email": "mmkmakoto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
