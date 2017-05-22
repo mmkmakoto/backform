@@ -8,7 +8,11 @@
             "email": "mmkmakoto@gmail.com"
         }
     ],
-    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Backform\\": "src/Backform"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "master"
