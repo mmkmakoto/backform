@@ -8,6 +8,10 @@
             "email": "mmkmakoto@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=5.5.9",
+        "nesbot/carbon": "~1.20",
+    },
     "autoload": {
         "psr-4": {
             "Backform\\": "src/Backform"
