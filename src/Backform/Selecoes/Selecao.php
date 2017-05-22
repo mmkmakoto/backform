@@ -6,7 +6,6 @@ class Selecao extends CamposFormularioAbstract
 {
 	//Propriedades Estáticas Básicas Necessárias
  	public $tipo = 'selecao';
- 	public $nome = 'selecao';
  	public $descricao = 'Um campo do tipo seleçao';
 
 	public function setMaxUnidadesSelecionadas($maxUnidades)

@@ -5,9 +5,13 @@ abstract class CamposFormularioAbstract
 	protected $nullable = true;
 	public $tipo = "";
 	public $descricao = "";
+	public $nome = "";
 	public $params = [];
 
-	protected abstract function getValor($value);
+	protected function getValor($value)
+	{
+		return $value;
+	}
 
 	public function resposta($resposta)
 	{

@@ -7,7 +7,6 @@ class Data extends CamposFormularioAbstract
 {
 	//Propriedades Estáticas Básicas Necessárias
 	public $tipo = 'data';
- 	public $nome = 'data';
  	public $descricao = 'Um campo do tipo data sem seleção de horário';
 
 	public function setDataMax($data)

@@ -6,7 +6,6 @@ class Float extends CamposFormularioAbstract
 {
 	//Propriedades Estáticas Básicas Necessárias
  	public $tipo = 'float';
- 	public $nome = 'float';
  	public $descricao = 'Um campo do tipo float duh';
 
 	public function setValorMin($valor)
