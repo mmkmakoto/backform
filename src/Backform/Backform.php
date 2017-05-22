@@ -2,9 +2,11 @@
 namespace Backform;
 
 class Backform{
-	public $propriedade1 = 1;
-	public $propriedade2 = 2;
-	public $propriedade3 = 4;
+	public function tipo($nomeCampo)
+	{
+		$namespace = __NAMESPACE__.'\Selecoes\\'.$nomeCampo;
+		return new $namespace;
+	}
 }
 
 ?>
