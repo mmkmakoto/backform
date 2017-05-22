@@ -2,9 +2,9 @@
 namespace Backform;
 
 class Backform{
-	public $propriedade = 1;
-	public $propriedade = 2;
-	public $propriedade = 3;
+	public $propriedade1 = 1;
+	public $propriedade2 = 2;
+	public $propriedade3 = 3;
 }
 
 ?>
