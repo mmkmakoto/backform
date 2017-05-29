@@ -1,15 +1,27 @@
 <?php
 namespace Backform;
-use exception;
+use Backform\Selecoes\inputData;
+use Backform\Selecoes\inputFloat;
+use Backform\Selecoes\inputGenerico;
+use Backform\Selecoes\inputSelecao;
+use Backform\Selecoes\inputString;
+
 class Backform{
+	protected $campos = [
+		'Data' => inputData::class,
+		'Float' => inputFloat::class,
+		'Generico' => inputGenerico::class,
+		'Selecao' => inputSelecao::class,
+		'String' => inputString::class,
+	];
+
 	public function tipo($nomeCampo)
 	{
-		$namespace = __NAMESPACE__.'\Selecoes\\'.$nomeCampo;
-		if(class_exists($namespace)){
-			return new $namespace;
+		if(in_array($nomeCampo,$this->campos)){
+			return new $this->campos[$nomeCampo];
 		}
 		else{
-			return new Selecoes\Generico;
+			return new inputGenerico;
 		}
 	}
 }

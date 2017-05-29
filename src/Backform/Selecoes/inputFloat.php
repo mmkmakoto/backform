@@ -1,8 +1,8 @@
 <?php
 namespace Backform\Selecoes;
-use Backform\CamposFormularioAbstract;
+use Backform\Input;
 
-class Float extends CamposFormularioAbstract
+class inputFloat extends Input
 {
 	//Propriedades Estáticas Básicas Necessárias
  	public $tipo = 'float';

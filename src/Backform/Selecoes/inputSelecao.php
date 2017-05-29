@@ -1,8 +1,8 @@
 <?php
 namespace Backform\Selecoes;
-use Backform\CamposFormularioAbstract;
+use Backform\Input;
 
-class Selecao extends CamposFormularioAbstract
+class inputSelecao extends Input
 {
 	//Propriedades Estáticas Básicas Necessárias
  	public $tipo = 'selecao';

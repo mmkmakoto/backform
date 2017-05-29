@@ -1,9 +1,9 @@
 <?php
 namespace Backform\Selecoes;
-use Backform\CamposFormularioAbstract;
+use Backform\Input;
 use Carbon\Carbon;
 
-class Data extends CamposFormularioAbstract
+class inputData extends Input
 {
 	//Propriedades Estáticas Básicas Necessárias
 	public $tipo = 'data';

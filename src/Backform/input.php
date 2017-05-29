@@ -1,6 +1,6 @@
 <?php
 namespace Backform;
-abstract class CamposFormularioAbstract
+abstract class Input
 {
 	protected $nullable = true;
 	public $tipo = "";

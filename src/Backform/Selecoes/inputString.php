@@ -1,8 +1,8 @@
 <?php
 namespace Backform\Selecoes;
-use Backform\CamposFormularioAbstract;
+use Backform\Input;
 
-class String extends CamposFormularioAbstract
+class inputString extends Input
 {
 	//Propriedades Estáticas Básicas Necessárias
  	public $tipo = 'string';

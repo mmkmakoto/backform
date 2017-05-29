@@ -1,8 +1,8 @@
 <?php
 namespace Backform\Selecoes;
-use Backform\CamposFormularioAbstract;
+use Backform\Input;
 
-class Generico extends CamposFormularioAbstract
+class inputGenerico extends Input
 {
 	public $tipo = "string";
 	public $descricao = "formulário genérico";
