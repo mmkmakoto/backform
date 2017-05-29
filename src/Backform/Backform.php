@@ -17,7 +17,7 @@ class Backform{
 
 	public function tipo($nomeCampo)
 	{
-		if(in_array($nomeCampo,$this->campos)){
+		if(isset($this->campos[$nomeCampo])){
 			return new $this->campos[$nomeCampo];
 		}
 		else{
